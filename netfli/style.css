@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(6, 6, 6);
+    color: rgb(208, 4, 4);
+    padding: 10PX;
+    font-family: arial;
+    padding: 20px;
+}
+
+#Sign-in{
+    border-radius: 3px;
+    background-color: rgb(196, 2, 2);
+    color: aliceblue;
+    border: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80px;
+    margin-right: 20px;
+    
+}
+#logo{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: boloder;
+}
+#main{
+    background: linear-gradient(rgb(137, 25, 25),black);
+    background-size: cover;
+    height: 80vh;
+}
+#para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: white;
+    font-family:arial ;
+    font-size: 25px;
+    justify-content: center;
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    height: 46px;
+}
+
+#email{
+    width: 350px;
+    border-radius: 5px 0 0 5px;
+    border: transparent;
+}
+#button{
+    color: white;
+    background-color: rgb(247, 1, 1);
+    border: transparent;
+    width: 80px ;
+    border-radius: 0 5px 5px 0;
+}
+#line{
+    height: 7px;
+    width: 100%;
+    background: linear-gradient(to right,black, rgb(55, 0, 55), red ,rgb(55, 0, 55),black );
+    border-radius: 50% 50% 0 0 / ;
+    pointer-events: none;
+    
+}
+#trend{
+    background-color: rgb(12, 12, 12);
+    height: 80vw;
+}
+#heading{
+    padding: 50px;
+    color: white;
+    font-family: arial;
+    font-weight: 600;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    gap:20px;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 40px;
+    font-family: arial;
+    font-size: 500;
+    font-weight:600 ;
+    
+}
+.hero div{
+    border-radius: 10px;;
+    padding-top: 270px;
+    padding-left: 10px;
+    width: 200px;
+}
+#heading2{
+    padding: 50px;
+    margin-top: 50px;
+    color: white;
+    font-family: arial;
+    font-weight: 600;
+}
+
+.hero2{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    gap:20px;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 40px;
+    font-family: arial;
+    font-size: 500;
+    font-weight:600 ;
+}
+.hero2 div{
+    border-radius: 10px;;
+    padding-top: 270px;
+    padding-left: 10px;
+    width: 200px;
+}

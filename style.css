@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    margin-bottom: 20px;
+}
+nav{
+   font-size: 20px;
+   position: relative;
+   gap: 30px;
+   display: flex;
+   font-size: 25px;
+
+}
+a{
+   text-decoration: none;
+   color: black;
+   
+
+}
+#order{
+    background-color:rgb(230, 130, 70);
+    border: solid  rgb(230, 130, 70);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    /* position: relative;url(../image.png) */
+    /* right: 50px; */
+}
+#logo{
+    display: flex;
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+    
+}
+main{
+    background-image: url(image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+#bake{
+    position: relative;
+    left: 10%;
+    color: white;
+
+
+}
